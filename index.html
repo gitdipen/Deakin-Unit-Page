@@ -1,28 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title> Home </title>
-<div>
-<img src="Deakin_University_Logo_2017.svg" alt="Deakin" width="200" height="210">
-</div>
-<link rel="stylesheet" type="text/css" media="screen" href="main.css"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deakin University Website</title>
+  <link rel="stylesheet" href="main.css" />
 </head>
 <body>
-<h1>SIT223-SIT753 - Professional Practice in IT</h1>
-<h2>Unit Details</h2>
-<table style="width:100%">
-  <tr><td>Year:</td><td>2025 unit information</td></tr>
-  <tr><td>Enrolment Modes:</td><td>Trimester 1: Warun Ponds, Campus</td></tr>
-  <tr><td>Credit Points:</td><td>1</td></tr>
-  <tr><td>Unit Chair:</td><td>Dr.Art Suwanwiwat</td></tr>
-  <tr>
-    <td>Scheduled Learning:</td>
-    <td>1 x 3-hour class weekly</td>
-  </tr>
-</table>
-<h3>Unit Content Overview</h3>
-<p>For IT graduates to thrive in professional environments, comprehensive knowledge of industry-standard tools and methodologies is essential. This unit provides practical exposure to contemporary technologies and frameworks used in modern software development and IT operations.</p>
-<p>Explore key resources for current students including:</p>
-<a href="https://www.deakin.edu.au/students/enrolment-and-fees/fees">Student Fees and Enrollment Information</a>
+  <header>
+    <div class="banner">
+      <img src="Deakin_University_Logo_2017.svg" alt="Deakin Logo" />
+      <h1>Deakin University</h1>
+    </div>
+    <nav>
+      <a href="#student">Student Portal</a>
+      <a href="#staff">Staff Portal</a>
+      <a href="#search">Search</a>
+      <a href="#news">News</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="unit-info">
+      <h2>SIT223-SIT753 - Professional Practice in IT</h2>
+      <div class="card">
+        <h3>Unit Details</h3>
+        <table>
+          <tr><td>Year:</td><td>2025 unit information</td></tr>
+          <tr><td>Enrolment Modes:</td><td>Trimester 1: Waurn Ponds, Campus</td></tr>
+          <tr><td>Credit Points:</td><td>1</td></tr>
+          <tr><td>Unit Chair:</td><td>Dr. Art Suwanwiwat</td></tr>
+          <tr><td>Scheduled Learning:</td><td>1 x 3-hour class weekly</td></tr>
+        </table>
+      </div>
+      <div class="card">
+        <h3>Unit Content Overview</h3>
+        <p>
+          For IT graduates to thrive in professional environments, comprehensive knowledge of
+          industry-standard tools and methodologies is essential. This unit provides practical
+          exposure to contemporary technologies and frameworks used in modern software
+          development and IT operations.
+        </p>
+        <p>
+          Explore key resources for current students including:
+          <a href="https://www.deakin.edu.au/students/enrolment-and-fees/fees" target="_blank">
+            Student Fees and Enrollment Information
+          </a>
+        </p>
+      </div>
+    </section>
+
+    <section id="student" class="portal-section">
+      <h2>Student Portal</h2>
+      <p>Access course materials, grades, and important academic information here.</p>
+    </section>
+
+    <section id="staff" class="portal-section">
+      <h2>Staff Portal</h2>
+      <p>Manage HR documents, payroll info, and admin resources.</p>
+    </section>
+
+    <section id="search" class="portal-section">
+      <h2>Search Courses</h2>
+      <input type="text" placeholder="Search for programs, units..." />
+    </section>
+
+    <section id="news" class="portal-section">
+      <h2>University News</h2>
+      <p>Stay updated with the latest campus news, events, and announcements.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Deakin University. All rights reserved.</p>
+  </footer>
 </body>
 </html>
